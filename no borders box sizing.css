@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    float: left;
+  }
+  
+  .first {
+    box-sizing: border-box;
+    background: blue;
+  }
+  
+  .first:hover {
+    border: 5px solid black;
+  }
+  
+  .second {
+    margin-left: 10px;
+    background: red;
+  }
+  
+  .third {
+    margin-top: 10px;
+    clear: left;
+    background: orange;
+  }
+  
+  .third:hover {
+    box-shadow: inset 0px 0px 0px 4px black;
+  }
+  
+  .fourth {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: purple;
+  }

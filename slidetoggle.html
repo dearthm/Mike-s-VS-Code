@@ -1,0 +1,65 @@
+
+
+<style> 
+#flip {
+  background-color:rgba(0,0,255,0.4);
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    text-align:justify;
+    line-height: 30px;
+    text-indent: 1.5em;
+    background: #fbfbfc;
+    
+}
+
+#title {
+    text-align:center;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+<div id="flip" class="flip">Click to read</div>
+<div id="panel">
+<div id="title">Holy, Holy, Holy</div>There is another occasion that I remember Sis. Beauford, my childhood pastor's wife, crying "Holy, holy, holy."
+                It happened in our junior boys Sunday School class. For some reason we had moved to a new room which was
+                upstairs in the gable above the entrance to the church. Our teacher was a big, strong, likeable man known
+                for his strength, boxing, and love for God. Yet, he was having trouble controlling us boys. We were rowdy
+                and loud. As we were cutting up, I, being seated with my back mostly towards the door, suddenly felt a fearful
+                chill go all over me. All the boys in a moment were as quiet as an empty room. Half turning, I saw Sis. Beauford
+                standing there. She had entered unbeknownst to us. She was standing there back straight, Bible clasped to
+                her chest just under her chin, and saying, "Holy, holy, holy." Each of us boys was quaking. Not from the
+                fear of a cruel person, but from the fear of having violated a holy place with unholy, unjustifiable behavior.
+                Once she had our attention, Sis. Beauford then began to calmly but so firmly tell us why our behavior was
+                unacceptable. I didn't feel like we had offended her, or offended our teacher with our disrespectful acts,
+                but I felt we had offended God-grieved God. There was a time when people feared God. It wasn't a fear that
+                made God repulsive or dreaded. It was a fear that made Him loved, desired, hungered after. Our society is
+                in a great mess. Much of the mess can arguably be traced to the Church's expunging from its worship and teaching
+                any emphasis on the holiness of God. God is no longer feared. When God is not feared, any and every behavior
+                will be ultimately be accepted. Our nation has more wrong with it than rowdy, junior boys. It desperately
+                needs to hear the church passionately say of God, "Holy, holy, holy." That would begin to make as much difference
+                as Sis. Beauford in the junior boys Sunday School class.</div>
+
+</body>
+
+<script>
+    $(".flip").click(function(){
+        $(this).siblings("#panel").slideToggle(800);
+    });
+
+</script>
+</html>
